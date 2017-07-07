@@ -36,7 +36,7 @@ source venv/bin/activate
 On Windows
 ```
 virtualenv -p python3 venv
-venv/bin/activate
+venv/scripts/activate
 ```
 
 Then install the dependencies through requirements.txt
