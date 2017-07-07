@@ -1,6 +1,6 @@
 # Mediminder
 
-Hey guys, I created a git repo for our project.
+Hey guys, I created a git repo for our project. We're gonna make the backend first with django.
 
 To set it up, first make sure you have python 3, pip, virtualenv, and git installed
 
@@ -12,7 +12,7 @@ sudo easy_install pip
 pip install virtualenv
 ```
 
-Git should already be installed if you have Xcode
+Git should already be installed if you have Xcode, if not install Xcode from the app store
 
 For Windows you'll have to download python 3 from here https://www.python.org/downloads/
 I think pip should install with python 3 automatically
@@ -51,4 +51,8 @@ python manage.py migrate
 ```
 I haven't tested any of the windows commands because I'm on Mac, but they should all work, if they don't let me know.
 
+There are two endpoints, `/accounts/` for the accounts and `/instructions/` for the instructions.
+
 I think we should do Test Driven Development. I'm gonna create tests that we need to pass and then assign tasks to you guys.
+
+We'll see how long this takes us and then decide whether to make a frontend, it shouldn't take longer than a week, so I think we should make a frontend.
