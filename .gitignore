@@ -1,0 +1,4 @@
+.idea
+*.sqlite
+.DS_STORE
+venv/
