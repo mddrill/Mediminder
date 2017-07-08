@@ -1,0 +1,20 @@
+[
+{
+    "model": "patients.patient",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "first_name": "Matt",
+        "last_name": "Drill"
+    }
+},
+{
+    "model": "patients.patient",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "first_name": "Justin",
+        "last_name": "Bieber"
+    }
+}
+]

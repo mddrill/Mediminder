@@ -31,6 +31,10 @@ ALLOWED_HOSTS = ['testserver', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'doctors.apps.DoctorsConfig',
+    'patients.apps.PatientsConfig',
+    'instructions.apps.InstructionsConfig',
+    'django_nose',
     'rest_framework.authtoken',
     'rest_framework',
     'django.contrib.admin',
@@ -130,3 +134,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
+# Use nose to run all tests
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+# Tell nose to measure coverage on the 'foo' and 'bar' apps
+NOSE_ARGS = [
+    '--with-coverage',
+    '--cover-package=foo,bar',
+]
