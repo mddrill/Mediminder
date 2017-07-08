@@ -1,4 +1,4 @@
 .idea
-*.sqlite
+*.sqlite3
 .DS_STORE
 venv/
