@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from patients.models import Patient
 
 class Doctor(models.Model):
-    user = models.OneToOneField(User)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=20)
     patients = models.ManyToManyField(Patient, related_name='doctors')

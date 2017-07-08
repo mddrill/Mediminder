@@ -1,0 +1,22 @@
+[
+{
+    "model": "instructions.instruction",
+    "pk": 1,
+    "fields": {
+        "given_at": "2017-07-08T15:49:03.807Z",
+        "doctor": 1,
+        "patient": 2,
+        "text": "Just stop being sick"
+    }
+},
+{
+    "model": "instructions.instruction",
+    "pk": 2,
+    "fields": {
+        "given_at": "2017-07-08T15:49:54.806Z",
+        "doctor": 2,
+        "patient": 1,
+        "text": "Just eat kale or something"
+    }
+}
+]

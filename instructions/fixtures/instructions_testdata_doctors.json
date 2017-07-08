@@ -1,0 +1,22 @@
+[
+{
+    "model": "doctors.doctor",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "first_name": "Lofton",
+        "last_name": "Bullard",
+        "patients": []
+    }
+},
+{
+    "model": "doctors.doctor",
+    "pk": 2,
+    "fields": {
+        "user": 4,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "patients": []
+    }
+}
+]
