@@ -1,6 +1,6 @@
 # Mediminder
 
-Hey guys, I created a git repo for our project. We're gonna make the backend first with django.
+Hey guys, I created a git repo for our project. For the backend we'll use django and the django REST Framework.
 
 To set it up, first make sure you have python 3, pip, virtualenv, and git installed
 
@@ -55,4 +55,4 @@ There are thre endpoints, `/doctors/` and `/patients/` for the creating doctor a
 
 We're gonna do Test Driven Development, I've created failing tests for you guys to pass.
 
-For example code, you guys can look here https://github.com/mddrill/WallAppBackend
+For example code, you guys can look here https://github.com/mddrill/WallAppBackend. There's also a good django REST tutorial here http://www.django-rest-framework.org/tutorial/1-serialization/.
