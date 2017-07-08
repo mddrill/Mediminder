@@ -51,8 +51,8 @@ python manage.py migrate
 ```
 I haven't tested any of the windows commands because I'm on Mac, but they should all work, if they don't let me know.
 
-There are two endpoints, `/accounts/` for the accounts and `/instructions/` for the instructions.
+There are thre endpoints, `/doctors/` and `/patients/` for the creating doctor and patient accounts and `/instructions/` for the instructions.
 
-I think we should do Test Driven Development. I'm gonna create tests that we need to pass and then assign tasks to you guys.
+We're gonna do Test Driven Development, I've created failing tests for you guys to pass.
 
-We'll see how long this takes us and then decide whether to make a frontend, it shouldn't take longer than a week, so I think we should make a frontend.
+For example code, you guys can look here https://github.com/mddrill/WallAppBackend
